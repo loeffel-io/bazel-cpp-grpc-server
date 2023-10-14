@@ -2,10 +2,7 @@ cc_binary(
     name = "main",
     srcs = ["main.cc"],
     deps = [
-        # "//include/server/math",
-        "//include/math",
-        "//proto/math/v1:math",
-        "//proto/math/v1:math_v1_cc_grpc",
+        "//include/server/math",
         "@com_github_grpc_grpc//:grpc++",
         "@com_github_grpc_grpc//:grpc++_reflection",
     ],

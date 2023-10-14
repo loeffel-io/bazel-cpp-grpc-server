@@ -1,0 +1,17 @@
+cc_library(
+    name = "math",
+    srcs = [
+        "math.cc",
+        "math.h",
+    ],
+    hdrs = [
+        "math.h",
+    ],
+    visibility = ["//visibility:public"],
+    deps = [
+        "//include/calculator",
+        "//proto/math/v1:math",
+        "//proto/math/v1:math_v1_cc_grpc",
+        "@com_github_grpc_grpc//:grpc++",
+    ],
+)
