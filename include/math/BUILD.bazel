@@ -1,0 +1,23 @@
+cc_library(
+    name = "math",
+    srcs = [
+        "math.cc",
+        "math.h",
+    ],
+    hdrs = [
+        "math.h",
+    ],
+    visibility = ["//visibility:public"],
+)
+
+cc_test(
+    name = "math_test",
+    size = "small",
+    srcs = [
+        "math_test.cc",
+    ],
+    deps = [
+        ":math",
+        "@com_google_googletest//:gtest_main",
+    ],
+)

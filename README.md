@@ -1,2 +1,1 @@
-# bazel-cpp-grpc-server
-Bazel C++ gRPC Server 
+# Bazel C++ gRPC Server

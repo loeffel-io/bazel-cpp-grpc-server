@@ -30,3 +30,9 @@
 *.exe
 *.out
 *.app
+
+# Custom
+bazel-*
+CMakeLists.txt
+.idea
+cmake-build-debug
