@@ -15,3 +15,15 @@ cc_library(
         "@com_github_grpc_grpc//:grpc++",
     ],
 )
+
+cc_test(
+    name = "math_test",
+    srcs = [
+        "math_unittest.cc",
+    ],
+    deps = [
+        ":math",
+        "//include/calculator",
+        "@com_google_googletest//:gtest_main",
+    ],
+)

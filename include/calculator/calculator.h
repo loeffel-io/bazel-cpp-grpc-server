@@ -3,4 +3,4 @@
 
 int add(int, int);
 
-#endif //BAZEL_CPP_GRPC_SERVER_CALCULATOR_H
+#endif  // BAZEL_CPP_GRPC_SERVER_CALCULATOR_H

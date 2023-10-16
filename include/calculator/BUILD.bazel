@@ -12,9 +12,8 @@ cc_library(
 
 cc_test(
     name = "calculator_test",
-    size = "small",
     srcs = [
-        "calculator_test.cc",
+        "calculator_unittest.cc",
     ],
     deps = [
         ":calculator",
